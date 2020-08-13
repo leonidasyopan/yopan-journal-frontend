@@ -34,8 +34,6 @@
 
 <script>
 export default {
-  props: {
-    source: String,
-  },
+  props: {},
 };
 </script>

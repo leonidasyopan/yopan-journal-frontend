@@ -1,18 +1,20 @@
 <template lang="pug">
   v-app
-    login-page
+    dashboard
     
   
 </template>
 
 <script>
-import LoginPage from "./components/LoginPage";
+// import LoginPage from "./components/LoginPage";
+import Dashboard from "./components/Dashboard";
 
 export default {
   name: "App",
 
   components: {
-    LoginPage,
+    // LoginPage,
+    Dashboard,
   },
 
   data: () => ({
